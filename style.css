@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: rgb(92, 58, 15);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Mobile First */
+body {
+    padding: 10px;
+}
+
+@media(min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    nav a {
+        margin: 0 20px;
+    }
+}
